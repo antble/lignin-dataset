@@ -1,0 +1,31 @@
+# NAMD Minimization
+
+structure           L.psf
+coordinates         lignin.pdb
+
+paratypecharmm      on
+parameters          /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/par_all36_carb.prm
+parameters          /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/par_lignin.prm
+
+parameters          /Users/anthonca/Documents/Postdoc/lignin-dataset/dimer/GG_alpha-O-4/extraparameters.prm
+
+outputName          minimize
+restartfreq         500
+dcdfreq             500
+xstFreq             500
+outputEnergies      100
+
+exclude             scaled1-4
+1-4scaling          1.0
+switching           on
+switchdist          10.0
+cutoff              12.0
+pairlistdist        14.0
+wrapAll             off
+
+timestep            1.0
+temperature         300
+
+minimize            1000
+minimize            2000
+minimize            2000

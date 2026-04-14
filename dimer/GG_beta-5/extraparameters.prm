@@ -1,0 +1,10 @@
+! Written by LigninBuilder — analogues from:
+!   par_lignin.prm, par_all36_cgenff.prm, par_water_ions.prm
+
+BONDS
+
+ANGLES
+
+DIHEDRALS
+CLG2R6B  CLG2R61  CLG2R61  CLG3C51       0.9856 2 180.0  ! from CLG2R61  CLG2R61  CLG2R61  CLG3C51
+CLG2RC0  CLG2R61  CLG2R61  CLG2DC1       3.6937 2 180.0  ! from CLG2DC1  CLG2R61  CLG2R61  CLG2R61

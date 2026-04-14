@@ -1,0 +1,159 @@
+PSF NAMD
+
+      10 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS 3 patches were applied to the molecule.
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_all36_cgenff.rtf 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_lignin.top 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_spirodienone.top 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/LigninBuild/LigninBuilder/LigninBuilderPlugin/top_lignin.top 
+ REMARKS segment L { first NONE; last NONE; auto angles dihedrals }
+ REMARKS patch 4O5 L:1  L:2  
+ REMARKS patch DBBL L:1  
+ REMARKS patch DBBL L:2  
+
+      40 !NATOM
+       1 L    1    PHP  C6   CLG2R61  -0.115000       12.0110           0
+       2 L    1    PHP  H6   HLGR61   0.115000        1.0080           0
+       3 L    1    PHP  C2   CLG2R61  -0.115000       12.0110           0
+       4 L    1    PHP  H2   HLGR61   0.115000        1.0080           0
+       5 L    1    PHP  C3   CLG2R61  -0.115000       12.0110           0
+       6 L    1    PHP  H3   HLGR61   0.115000        1.0080           0
+       7 L    1    PHP  C4   CLG2R6B   0.181000       12.0110           0
+       8 L    1    PHP  O4   OLG301  -0.362000       15.9994           0
+       9 L    1    PHP  C5   CLG2R61  -0.115000       12.0110           0
+      10 L    1    PHP  H5   HLGR61   0.115000        1.0080           0
+      11 L    1    PHP  C1   CLG2R61   0.000000       12.0110           0
+      12 L    1    PHP  C7   CLG2DC1  -0.150000       12.0110           0
+      13 L    1    PHP  H7   HLGA4   0.150000        1.0080           0
+      14 L    1    PHP  C8   CLG2DC1  -0.150000       12.0110           0
+      15 L    1    PHP  H8   HLGA4   0.150000        1.0080           0
+      16 L    1    PHP  C9   CLG321   0.042000       12.0110           0
+      17 L    1    PHP  O9   OLG311  -0.642000       15.9994           0
+      18 L    1    PHP  HO9  HLGP1   0.420000        1.0080           0
+      19 L    1    PHP  H91  HLGA2   0.090000        1.0080           0
+      20 L    1    PHP  H92  HLGA2   0.090000        1.0080           0
+      21 L    2    PHP  C6   CLG2R61  -0.115000       12.0110           0
+      22 L    2    PHP  H6   HLGR61   0.115000        1.0080           0
+      23 L    2    PHP  C2   CLG2R61  -0.115000       12.0110           0
+      24 L    2    PHP  H2   HLGR61   0.115000        1.0080           0
+      25 L    2    PHP  C3   CLG2R61  -0.115000       12.0110           0
+      26 L    2    PHP  H3   HLGR61   0.115000        1.0080           0
+      27 L    2    PHP  C4   CLG2R6A   0.075000       12.0110           0
+      28 L    2    PHP  O4   OLG311  -0.495000       15.9994           0
+      29 L    2    PHP  HO4  HLGP1   0.420000        1.0080           0
+      30 L    2    PHP  C5   CLG2R6B   0.181000       12.0110           0
+      31 L    2    PHP  C1   CLG2R61   0.000000       12.0110           0
+      32 L    2    PHP  C7   CLG2DC1  -0.150000       12.0110           0
+      33 L    2    PHP  H7   HLGA4   0.150000        1.0080           0
+      34 L    2    PHP  C8   CLG2DC1  -0.150000       12.0110           0
+      35 L    2    PHP  H8   HLGA4   0.150000        1.0080           0
+      36 L    2    PHP  C9   CLG321   0.042000       12.0110           0
+      37 L    2    PHP  O9   OLG311  -0.642000       15.9994           0
+      38 L    2    PHP  HO9  HLGP1   0.420000        1.0080           0
+      39 L    2    PHP  H91  HLGA2   0.090000        1.0080           0
+      40 L    2    PHP  H92  HLGA2   0.090000        1.0080           0
+
+      41 !NBOND: bonds
+       1       9       1       2       1      11       3      11
+       3       4       3       5       5       7       5       6
+       7       8       7       9       8      30       9      10
+      11      12      12      13      12      14      14      15
+      14      16      16      19      16      20      16      17
+      17      18      21      30      21      22      21      31
+      23      31      23      24      23      25      25      27
+      25      26      27      28      27      30      28      29
+      31      32      32      33      32      34      34      35
+      34      36      36      39      36      40      36      37
+      37      38
+
+      64 !NTHETA: angles
+       1      11      12       1      11       3       1       9      10
+       1       9       7       2       1      11       3      11      12
+       3       5       6       3       5       7       4       3       5
+       5       7       9       5       7       8       7       9      10
+       7       8      30       7       5       6       8      30      27
+       8      30      21       8       7       9       9       1      11
+       9       1       2      11      12      14      11      12      13
+      11       3       5      11       3       4      12      14      16
+      12      14      15      13      12      14      14      16      17
+      14      16      20      14      16      19      15      14      16
+      16      17      18      19      16      17      19      16      20
+      20      16      17      21      31      32      21      31      23
+      21      30      27      22      21      31      23      31      32
+      23      25      26      23      25      27      24      23      25
+      25      27      30      25      27      28      27      28      29
+      27      25      26      28      27      30      30      21      31
+      30      21      22      31      32      34      31      32      33
+      31      23      25      31      23      24      32      34      36
+      32      34      35      33      32      34      34      36      37
+      34      36      40      34      36      39      35      34      36
+      36      37      38      39      36      37      39      36      40
+      40      36      37
+
+      88 !NPHI: dihedrals
+       1      11      12      14       1      11      12      13
+       1      11       3       5       1      11       3       4
+       1       9       7       8       1       9       7       5
+       2       1      11      12       2       1      11       3
+       2       1       9      10       2       1       9       7
+       3       5       7       9       3       5       7       8
+       3      11      12      14       3      11      12      13
+       3      11       1       9       4       3       5       6
+       4       3       5       7       4       3      11      12
+       5       7       9      10       5       7       8      30
+       5       3      11      12       6       5       7       9
+       6       5       7       8       6       5       3      11
+       7       9       1      11       7       8      30      27
+       7       8      30      21       7       5       3      11
+       8      30      27      28       8      30      27      25
+       8      30      21      31       8      30      21      22
+       8       7       9      10       9       7       8      30
+       9       1      11      12      10       9       1      11
+      11      12      14      16      11      12      14      15
+      12      14      16      17      12      14      16      20
+      12      14      16      19      13      12      14      16
+      13      12      14      15      14      16      17      18
+      15      14      16      17      15      14      16      20
+      15      14      16      19      18      17      16      20
+      18      17      16      19      21      31      32      34
+      21      31      32      33      21      31      23      25
+      21      31      23      24      21      30      27      28
+      21      30      27      25      22      21      31      32
+      22      21      31      23      22      21      30      27
+      23      25      27      30      23      25      27      28
+      23      31      32      34      23      31      32      33
+      23      31      21      30      24      23      25      26
+      24      23      25      27      24      23      31      32
+      25      27      28      29      25      23      31      32
+      26      25      27      30      26      25      27      28
+      26      25      23      31      27      30      21      31
+      27      25      23      31      29      28      27      30
+      30      21      31      32      31      32      34      36
+      31      32      34      35      32      34      36      37
+      32      34      36      40      32      34      36      39
+      33      32      34      36      33      32      34      35
+      34      36      37      38      35      34      36      37
+      35      34      36      40      35      34      36      39
+      38      37      36      40      38      37      36      39
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+
+       1       0 !NGRP
+       0       0       0
+

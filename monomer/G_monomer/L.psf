@@ -1,0 +1,108 @@
+PSF NAMD
+
+       8 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS 1 patches were applied to the molecule.
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_all36_cgenff.rtf 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_lignin.top 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/ligningen-project/ligningen/assets/toppar/top_spirodienone.top 
+ REMARKS topology /Users/anthonca/Documents/Postdoc/LigninBuild/LigninBuilder/LigninBuilderPlugin/top_lignin.top 
+ REMARKS segment L { first NONE; last NONE; auto angles dihedrals }
+ REMARKS patch DBBL L:1  
+
+      25 !NATOM
+       1 L    1    GUAI C6   CLG2R61  -0.115000       12.0110           0
+       2 L    1    GUAI H6   HLGR61   0.115000        1.0080           0
+       3 L    1    GUAI C2   CLG2R61  -0.115000       12.0110           0
+       4 L    1    GUAI H2   HLGR61   0.115000        1.0080           0
+       5 L    1    GUAI C3   CLG2R6B   0.115000       12.0110           0
+       6 L    1    GUAI O3   OLG301  -0.329000       15.9994           0
+       7 L    1    GUAI C10  CLG331  -0.056000       12.0110           0
+       8 L    1    GUAI H101 HLGA3   0.090000        1.0080           0
+       9 L    1    GUAI H102 HLGA3   0.090000        1.0080           0
+      10 L    1    GUAI H103 HLGA3   0.090000        1.0080           0
+      11 L    1    GUAI C4   CLG2R6A   0.075000       12.0110           0
+      12 L    1    GUAI O4   OLG311  -0.495000       15.9994           0
+      13 L    1    GUAI HO4  HLGP1   0.420000        1.0080           0
+      14 L    1    GUAI C5   CLG2R61  -0.115000       12.0110           0
+      15 L    1    GUAI H5   HLGR61   0.115000        1.0080           0
+      16 L    1    GUAI C1   CLG2R61   0.000000       12.0110           0
+      17 L    1    GUAI C7   CLG2DC1  -0.150000       12.0110           0
+      18 L    1    GUAI H7   HLGA4   0.150000        1.0080           0
+      19 L    1    GUAI C8   CLG2DC1  -0.150000       12.0110           0
+      20 L    1    GUAI H8   HLGA4   0.150000        1.0080           0
+      21 L    1    GUAI C9   CLG321   0.042000       12.0110           0
+      22 L    1    GUAI O9   OLG311  -0.642000       15.9994           0
+      23 L    1    GUAI HO9  HLGP1   0.420000        1.0080           0
+      24 L    1    GUAI H91  HLGA2   0.090000        1.0080           0
+      25 L    1    GUAI H92  HLGA2   0.090000        1.0080           0
+
+      25 !NBOND: bonds
+       1      14       1       2       1      16       3      16
+       3       4       3       5       5      11       5       6
+       6       7       7       8       7       9       7      10
+      11      12      11      14      12      13      14      15
+      16      17      17      18      17      19      19      20
+      19      21      21      24      21      25      21      22
+      22      23
+
+      39 !NTHETA: angles
+       1      16      17       1      16       3       1      14      15
+       1      14      11       2       1      16       3      16      17
+       3       5       6       3       5      11       4       3       5
+       5      11      14       5      11      12       5       6       7
+       6       7      10       6       7       9       6       7       8
+       8       7      10       8       7       9       9       7      10
+      11      14      15      11      12      13      11       5       6
+      12      11      14      14       1      16      14       1       2
+      16      17      19      16      17      18      16       3       5
+      16       3       4      17      19      21      17      19      20
+      18      17      19      19      21      22      19      21      25
+      19      21      24      20      19      21      21      22      23
+      24      21      22      24      21      25      25      21      22
+
+      48 !NPHI: dihedrals
+       1      16      17      19       1      16      17      18
+       1      16       3       5       1      16       3       4
+       1      14      11      12       1      14      11       5
+       2       1      16      17       2       1      16       3
+       2       1      14      15       2       1      14      11
+       3       5       6       7       3       5      11      14
+       3       5      11      12       3      16      17      19
+       3      16      17      18       3      16       1      14
+       4       3       5       6       4       3       5      11
+       4       3      16      17       5       6       7      10
+       5       6       7       9       5       6       7       8
+       5      11      14      15       5      11      12      13
+       5       3      16      17       6       5      11      14
+       6       5      11      12       6       5       3      16
+       7       6       5      11      11      14       1      16
+      11       5       3      16      12      11      14      15
+      13      12      11      14      14       1      16      17
+      15      14       1      16      16      17      19      21
+      16      17      19      20      17      19      21      22
+      17      19      21      25      17      19      21      24
+      18      17      19      21      18      17      19      20
+      19      21      22      23      20      19      21      22
+      20      19      21      25      20      19      21      24
+      23      22      21      25      23      22      21      24
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0
+
+       1       0 !NGRP
+       0       0       0
+
