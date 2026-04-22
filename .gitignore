@@ -1,0 +1,26 @@
+# Ignore CSV files
+*.csv
+
+# Ignore log files
+*.log
+
+# Ignore molecular dynamics output files
+*.dcd
+*.coor
+*.vel
+*.pdb
+*.psf
+*.pdbfrcmod
+*.frcmod
+*.dat
+*.rst7
+*.nc
+*.out
+*.mol
+
+# Ignore Python cache and builds
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
